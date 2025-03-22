@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ✅ Use a Jetpack Compose-compatible theme -->
+    <style name="Theme.MiraCole" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Background color for the splash screen -->
+        <item name="android:windowSplashScreenBackground">@color/purple_500</item>
+
+        <!-- Icon shown in the splash screen -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/my_splash_icon</item>
+
+        <!-- Optional: Icon background color -->
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/splash_icon_bg</item>
+
+        <!-- Duration for the splash screen fade out animation -->
+        <item name="android:windowSplashScreenAnimationDuration">500</item>
+
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>
+
+
