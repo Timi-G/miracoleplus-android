@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <!-- Background color shown behind the splash icon -->
+        <item name="android:windowBackground">@drawable/splash_logo</item>
+<!--        <item name="windowSplashScreenBackground">@color/purple_200</item>-->
+        <!-- Splash icon displayed at launch -->
+        <item name="windowSplashScreenAnimatedIcon">@null</item>
+        <!-- Optional: background color behind the icon -->
+        <item name="windowSplashScreenIconBackgroundColor">@color/purple_500</item>
+        <!-- Optional: duration of the splash screen fade-out animation -->
+        <item name="windowSplashScreenAnimationDuration">300</item>
+    </style>
 
     <style name="Theme.MiraCole" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Background color for the splash screen -->
-        <item name="android:windowSplashScreenBackground">@color/white</item>
-
-        <!-- Icon shown in the splash screen -->
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
-
-        <!-- Optional: Icon background color -->
-        <item name="android:windowSplashScreenIconBackgroundColor">@color/purple_500</item>
-
-        <!-- Duration for the splash screen fade out animation -->
-        <item name="android:windowSplashScreenAnimationDuration">500</item>
-
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@drawable/splash_logo</item>
     </style>
 </resources>
